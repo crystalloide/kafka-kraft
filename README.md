@@ -11,6 +11,11 @@
 
     pwd
 
+#### On modifie les droits pour que le conteneur ait accès :  
+
+    sudo mkdir ClusterID
+    sudo chmod 777 -Rf ClusterID
+    
 #### On lance le docker compose (les étapes contenues sont expliquées juste après) : : 
 
     docker compose up -d
