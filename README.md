@@ -19,11 +19,11 @@
 
 Avant de démarrer, le clusterId doit être généré et le stockage doit être formaté avec un outil spécial. La commande pour générer l'uuid :
 
-`kafka-storage.sh random-uuid`
+    kafka-storage.sh random-uuid
 
 La commande pour le formatage :
 
-`kafka-storage.sh format`
+    kafka-storage.sh format
 
 Le docker compose définit 4 conteneurs :
 
@@ -33,11 +33,11 @@ Le docker compose définit 4 conteneurs :
 
 Après avoir démarré le cluster kafka, nous pouvons créer un topic :
 
-`docker exec -ti kafka1 /usr/bin/kafka-topics --create  --bootstrap-server kafka1:19092,kafka2:19093,kafka3:19094 --replication-factor 2 --partitions 4 --topic topic1`
+    docker exec -ti kafka1 /usr/bin/kafka-topics --create  --bootstrap-server kafka1:19092,kafka2:19093,kafka3:19094 --replication-factor 2 --partitions 4 --topic topic1
 
 Production des données dans le topic :
 
-`docker exec -ti kafka1 /usr/bin/kafka-console-producer --bootstrap-server kafka1:19092,kafka2:19093,kafka3:19094 --topic topic1`
+    docker exec -ti kafka1 /usr/bin/kafka-console-producer --bootstrap-server kafka1:19092,kafka2:19093,kafka3:19094 --topic topic1
 
 Lecture des données contenues dans le topic :
 
