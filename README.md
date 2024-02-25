@@ -4,7 +4,7 @@
 [![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/crystalloide/kafka-kraft
 )
 
-#### Rappel pour retrouver les environnements éventuellement précédemment instanciés dans Gitpod : https://gitpod.io/workspaces
+#### Rappel pour retrouver les environnements éventuellement précédemment instanciés dans Gitpod :
 [# Pour afficher les workspaces déjà instanciés si besoin de faire du ménage :](https://gitpod.io/workspaces)
 
 #### Affichage du répertoire courant dans Gitpod : 
