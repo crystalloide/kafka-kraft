@@ -11,6 +11,12 @@
 
     pwd
 
+#### On lance le docker compose (les étapes contenues sont expliquées juste après) : : 
+
+    docker compose up -d
+
+#### Les étapes réalisées : 
+
 Avant de démarrer, le clusterId doit être généré et le stockage doit être formaté avec un outil spécial. La commande pour générer l'uuid :
 
 `kafka-storage.sh random-uuid`
