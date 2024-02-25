@@ -46,4 +46,4 @@ Production des données dans le topic :
 
 Lecture des données contenues dans le topic :
 
-`docker exec -ti kafka1 /usr/bin/kafka-console-consumer --bootstrap-server kafka1:19092,kafka2:19093,kafka3:19094 --topic topic1 --from-beginning`
+    docker exec -ti kafka1 /usr/bin/kafka-console-consumer --bootstrap-server kafka1:19092,kafka2:19093,kafka3:19094 --topic topic1 --from-beginning
