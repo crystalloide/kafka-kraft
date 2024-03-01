@@ -15,6 +15,7 @@
 
     sudo mkdir ClusterID
     sudo chmod 777 -Rf ClusterID
+    sudo chmod 777 -Rf /workspace/kafka-kraft
     
 #### On lance le docker compose (les étapes contenues sont expliquées juste après) : : 
 
