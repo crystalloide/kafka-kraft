@@ -13,8 +13,8 @@
 
 #### On modifie les droits pour que le conteneur ait accès :  
 
-    sudo mkdir ClusterID
-    sudo chmod 777 -Rf ClusterID
+    sudo mkdir clusterID
+    sudo chmod 777 -Rf clusterID
     sudo chmod 777 -Rf /workspace/kafka-kraft
     
 #### On lance le docker compose (les étapes contenues sont expliquées juste après) : : 
