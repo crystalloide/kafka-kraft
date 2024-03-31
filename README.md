@@ -31,6 +31,11 @@
 
     docker compose up -d
 
+
+#### Autre possibilité, avec - en plus - un client graphique pour intéragir avec notre cluster 3 brokers en mode Kraft : 
+
+    docker compose -f cluster-kraft-avec-client-kafbat-UI.yml up
+
 #### Les étapes réalisées : 
 
 Avant de démarrer, le clusterId doit être généré et le stockage doit être formaté avec un outil spécial. La commande pour générer l'uuid :
