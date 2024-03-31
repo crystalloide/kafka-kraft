@@ -10,9 +10,9 @@
 
 #### Si on veut faire ce TP (en dehors de Gitpod, sur une VM à soi par exemple) : 
 
-git clone https://github.com/crystalloide/kafka-kraft
+    git clone https://github.com/crystalloide/kafka-kraft
 
-cd kafka-kraft
+    cd kafka-kraft
     
 
 #### Affichage du répertoire courant : 
