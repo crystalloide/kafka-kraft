@@ -7,16 +7,26 @@
 #### Rappel pour retrouver les environnements éventuellement précédemment instanciés dans Gitpod :
 [# Pour afficher les workspaces déjà instanciés si besoin de faire du ménage :](https://gitpod.io/workspaces)
 
-#### Affichage du répertoire courant dans Gitpod : 
+
+### Si on est une VM pour ce TP : (Attention : cette étape n'est à faire si vous choisisez d'exécuter le TP en ligne sur Gitpod) 
+
+git clone https://github.com/crystalloide/kafka-kraft
+
+cd kafka-kraft
+    
+
+#### Affichage du répertoire courant : 
 
     pwd
+
 
 #### On modifie les droits pour que le conteneur ait accès :  
 
     sudo mkdir clusterID
     sudo chmod 777 -Rf clusterID
     sudo chmod 777 -Rf /workspace/kafka-kraft
-    
+
+
 #### On lance le docker compose (les étapes contenues sont expliquées juste après) : : 
 
     docker compose up -d
