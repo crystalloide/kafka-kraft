@@ -8,7 +8,7 @@
 [# Pour afficher les workspaces déjà instanciés si besoin de faire du ménage :](https://gitpod.io/workspaces)
 
 
-### Si on est une VM pour ce TP : (Attention : cette étape n'est à faire si vous choisisez d'exécuter le TP en ligne sur Gitpod) 
+#### Si on veut faire ce TP (en dehors de Gitpod, sur une VM à soi par exemple) : 
 
 git clone https://github.com/crystalloide/kafka-kraft
 
